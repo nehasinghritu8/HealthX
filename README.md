@@ -7,3 +7,4 @@ team name void_main
 project name : remote
  
 the app aims to provide proper and emergency medicatation from remote prescription basically, so as to help all your far and dear ones
+An app that helps you meet all your health requirements , searching for hospitals to home delivery of your medicines, no more paper prescriptions and roaming around the city for that one rare medicine , our app does it all , also you can have your Q/A session with dieticians as well as we have a calorie tracker that helps you keep healthy and safe.

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_reg_username"
+        android:hint="@string/editText_login"
+        android:padding="@dimen/padding_editTexts"
+        android:layout_margin="@dimen/margin_views"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_reg_password"
+        android:hint="@string/editText_password"
+        android:padding="@dimen/padding_editTexts"
+        android:layout_margin="@dimen/margin_views"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/textView_loginLink"
+        android:text="@string/textView_loginLink"
+        android:padding="@dimen/padding_editTexts"
+        android:layout_margin="@dimen/margin_views"
+        android:onClick="onClickLoginLink"/>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HEALTH</string>
+    <string name="editText_login">Enter the username</string>
+    <string name="editText_password">Password here</string>
+    <string name="textView_regLink">New User? Register here.</string>
+    <string name="textView_loginLink">Already a User? Login here</string>
+</resources>

@@ -4,4 +4,5 @@
     <string name="editText_password">Password here</string>
     <string name="textView_regLink">New User? Register here.</string>
     <string name="textView_loginLink">Already a User? Login here</string>
+    <string name="button_register">Register</string>
 </resources>

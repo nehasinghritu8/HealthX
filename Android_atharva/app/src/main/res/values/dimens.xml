@@ -2,4 +2,5 @@
 <resources>
     <dimen name="padding_editTexts">20dp</dimen>
     <dimen name="margin_views">20dp</dimen>
+    <dimen name="padding_button">10dp</dimen>
 </resources>

@@ -31,4 +31,9 @@ public class MainActivity extends AppCompatActivity {
         BackgroundTasks backgroundTasks=new BackgroundTasks(this);
         backgroundTasks.execute(method,uname,pass);
     }
+
+    public void onClicktest(View view) {
+        Intent intent=new Intent(this,DoctorActivity.class);
+        startActivity(intent);
+    }
 }

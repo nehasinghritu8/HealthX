@@ -43,4 +43,11 @@
         android:onClick="onClickButtonLogin"
         android:layout_margin="@dimen/margin_views"
         android:text="@string/button_login"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/test"
+        android:onClick="onClicktest"
+        android:text="Test"/>
 </LinearLayout>

@@ -5,4 +5,9 @@
     <string name="textView_regLink">New User? Register here.</string>
     <string name="textView_loginLink">Already a User? Login here</string>
     <string name="button_register">Register</string>
+    <string name="button_login">login</string>
+    <string name="editText_reg_type">Type e.g. doc,pharma,etc.</string>
+    <string name="editText_reg_pincode">enter your city pin</string>
+    <string name="editText_reg_name">Your name</string>
+    <string name="editText_reg_desc">Desribe yourself</string>
 </resources>

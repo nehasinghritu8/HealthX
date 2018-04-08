@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="padding_editTexts">20dp</dimen>
-    <dimen name="margin_views">20dp</dimen>
+    <dimen name="margin_views">10dp</dimen>
     <dimen name="padding_button">10dp</dimen>
 </resources>

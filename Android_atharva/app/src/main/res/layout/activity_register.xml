@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -19,7 +23,73 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/editText_reg_password"
+        android:inputType="textPassword"
         android:hint="@string/editText_password"
+        android:padding="@dimen/padding_editTexts"
+        android:layout_margin="@dimen/margin_views"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_reg_name"
+        android:hint="@string/editText_reg_name"
+        android:padding="@dimen/padding_editTexts"
+        android:layout_margin="@dimen/margin_views"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You are a ?"
+            android:padding="@dimen/padding_editTexts"
+            android:layout_margin="3dp"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@+id/radioGroup">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:checked="false"
+                android:id="@+id/radiobtn_user"
+                android:text="User"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:checked="false"
+                android:id="@+id/radiobtn_doc"
+                android:text="Doctor"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:checked="false"
+                android:id="@+id/radiobtn_ph"
+                android:text="Pharmacist"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_reg_pincode"
+        android:hint="@string/editText_reg_pincode"
+        android:padding="@dimen/padding_editTexts"
+        android:layout_margin="@dimen/margin_views"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_reg_desc"
+        android:hint="@string/editText_reg_desc"
         android:padding="@dimen/padding_editTexts"
         android:layout_margin="@dimen/margin_views"/>
 
@@ -33,6 +103,7 @@
         android:layout_margin="@dimen/margin_views"
         android:onClick="onClickLoginLink"/>
 
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -44,3 +115,5 @@
         android:text="@string/button_register"/>
 
 </LinearLayout>
+
+</ScrollView>

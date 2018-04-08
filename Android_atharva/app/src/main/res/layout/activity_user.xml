@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserActivity">
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/margin_views"
+        android:id="@+id/btn_hospitalmap"
+        android:text="hospitals"
+        android:onClick="onClickButtonMaps"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/margin_views"
+        android:id="@+id/btn_medistoremap"
+        android:text="Medical stores"
+        android:onClick="onClickButtonMediStores"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/margin_views"
+        android:text="Dietitian"
+        android:onClick="onClickButtonDietitian"
+        android:id="@+id/btn_dietian"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Logout"
+        android:onClick="onClickButtonLogout"
+        android:layout_margin="@dimen/margin_views"
+        android:id="@+id/btn_logout"/>
+</LinearLayout>
